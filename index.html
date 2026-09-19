@@ -338,10 +338,7 @@
             <div class="role brown-text text-darken-2">Postdoctoral Fellow, Center for Bionic Medicine</div>
             <ul>
               <li>
-                <b>Supervisor:</b> Jose Pons
-              </li>
-              <li>
-                Developing controllers for lower-limb prosthetic devices and exoskeletons, including embedded controller design on MicroPython-based hardware.
+                Designing exoskeletons for pediatric patients with cerebral palsy and controllers for lower-limb prosthetic devices, including embedded controller design on MicroPython-based hardware.
               </li>
             </ul>
           </div>
@@ -367,9 +364,6 @@
             </div>
             <div class="role brown-text text-darken-2">Postdoctoral Fellow, Legs + Walking Lab</div>
             <ul>
-              <li>
-                <b>Supervisor:</b> Jose Pons
-              </li>
               <li>
                 My work has primarily involved developing and testing control strategies aimed at restoring walking abilities in patients with stroke or spinal cord injuries.
               </li>
@@ -899,7 +893,7 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Proximal powered knee placement" src="/assets/img/Projects/proximal_knee_design.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="Above-knee powertrain placement, treadmill walking trial" src="/assets/img/Projects/proximal_knee_frame_above.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">Proximal Powered Knee Placement<i
@@ -912,6 +906,41 @@
                   <li>Case study on placement of a proximal powered knee prosthesis component.</li>
                   <li>Presented at IEEE BioRob 2026.</li>
                 </ul>
+                <div class="row" style="margin-bottom: 0;">
+                  <div class="col s6">
+                    <img alt="Below-knee powertrain placement trial" src="/assets/img/Projects/proximal_knee_frame_below.jpg" style="width: 100%" />
+                  </div>
+                  <div class="col s6">
+                    <img alt="Design comparison against commercial powered knees" src="/assets/img/Projects/proximal_knee_design.png" style="width: 100%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bio-inspired jumping leg simulation -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <video class="activator" style="height: 100%; width: 100%; object-fit: cover;" autoplay loop muted playsinline>
+                  <source src="/assets/video/LegJumping/optimization_evolution.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Bio-Inspired Jumping-Leg Simulation &amp; Design Optimization<i
+                    class="mdi-navigation-more-vert right"></i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>MuJoCo simulation of a planar jumping leg with a compliant carbon-fiber-style blade foot, built up stage by stage from a passive elastic model to a fully actuated, optimized controller.</li>
+                  <li>Grid sweeps and evolutionary optimization over controller and passive parameters (stiffness, damping, timing) to maximize steady-state jump height.</li>
+                  <li>Ongoing project</li>
+                </ul>
+                <video style="width: 100%; margin-top: 10px;" controls>
+                  <source src="/assets/video/LegJumping/controllers_comparison.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
           </div>
@@ -1113,16 +1142,20 @@
                 <p>Coverage of the Science Robotics paper on therapist-exoskeleton-patient interaction (June 2026):</p>
                 <ul>
                 <li>
-                    <b>Crain's Chicago Business</b> -- "Chicago researchers test connected exoskeletons to help stroke patients walk"
+                    <a href="https://www.chicagobusiness.com/health-care/ccb-abilitylab-northwestern-stroke-exosketeton-20260619/" target="_blank" class="teal-text hoverline"><b>Crain's Chicago Business</b></a> -- "Chicago researchers test connected exoskeletons to help stroke patients walk"
                 </li>
                 <li>
-                    <b>WGN-TV</b> (Chicago, Channel 9) and <b>Fox 32 Chicago</b> -- TV segments on exoskeleton therapy for stroke survivors
+                    <a href="https://wgntv.com/news/medical-watch/exoskeletons-revolutionize-physical-therapy-for-stroke/" target="_blank" class="teal-text hoverline"><b>WGN-TV</b></a> (Chicago, Channel 9) and
+                    <a href="https://www.fox32chicago.com/video/fmc-yjbwr5a521jzz5so" target="_blank" class="teal-text hoverline"><b>Fox 32 Chicago</b></a> -- TV segments on exoskeleton therapy for stroke survivors
                 </li>
                 <li>
-                    <b>Northwestern Now</b> and <b>Shirley Ryan AbilityLab News</b> -- feature articles on the technology
+                    <a href="https://news.northwestern.edu/stories/2026/06/new-exoskeleton-therapy-could-redefine-how-stroke-survivors-relearn-to-walk" target="_blank" class="teal-text hoverline"><b>Northwestern Now</b></a> and
+                    <a href="https://www.sralab.org/articles/news/first-its-kind-exoskeleton-therapy-could-redefine-how-stroke-survivors-relearn-walk" target="_blank" class="teal-text hoverline"><b>Shirley Ryan AbilityLab News</b></a> -- feature articles on the technology
                 </li>
                 <li>
-                    Additional pickup by Yahoo News, NR Times (UK), Healthcare in Europe, Medical Xpress, IMechE (UK), and other international outlets
+                    <a href="https://nrtimes.co.uk/linked-robotic-exoskeletons-could-enhance-gait-retraining-after-stroke-life25/" target="_blank" class="teal-text hoverline">NR Times</a> (UK),
+                    <a href="https://healthcare-in-europe.com/en/news/exoskeleton-therapy-stroke-survivors-relearn-walking.html" target="_blank" class="teal-text hoverline">Healthcare in Europe</a>, and
+                    <a href="https://www.news-medical.net/news/20260618/Robotic-exoskeleton-system-virtually-connects-stroke-patients-and-therapists.aspx" target="_blank" class="teal-text hoverline">News-Medical.Net</a>, plus additional pickup by Yahoo News, Medical Xpress, IMechE (UK), and other international outlets
                 </li>
                 </ul>
             </div>
